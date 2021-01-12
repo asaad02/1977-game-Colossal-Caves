@@ -1,0 +1,243 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 101,
+        "start": "true",
+        "name": "Ballroom",
+        "short_description": "The ballroom, the lobby of the hotel",
+        "long_description": "The room is filled with renaissance paintings and a chandelier hangs above your head. The walls are painted light yellow.",
+        "entrance": [
+          {
+            "id": 102,
+            "dir": "N"
+          },
+          {
+            "id": 103,
+            "dir": "W"
+          },
+          {
+            "id": 104,
+            "dir": "E"
+          },
+          {
+            "id": 105,
+            "dir": "S"
+          },
+          {
+            "id": 106,
+            "dir": "up"
+          },
+          {
+            "id": 107,
+            "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Dining room",
+        "short_description": "The dining room of the hotel",
+        "long_description": "This dining room can host two hundred people. It is currently being prepared for dinner",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          },
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Room C17",
+        "short_description": "The room in the second floor in the section C",
+        "long_description": "Room with two beds and an old-fashioned TV. There is a minibar filled with treats for guests.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 8
+          },
+          {
+            "id": 7
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Room A20",
+        "short_description": "The room in the first floor in the section A",
+        "long_description": "A spacious room with three beds and two wardrobes. It's cold and smells fresh",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 9
+          },
+          {
+            "id": 10
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "Kitchen",
+        "short_description": "The kitchen of the hotel",
+        "long_description": "A kitchen filled with four cooks and two dozen waiters. It smells like chicken, garlic and a freshly cut onion.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "N"
+          }
+        ],
+        "loot": [
+          {
+            "id": 11
+          },
+          {
+            "id": 5
+          },
+          {
+            "id": 6
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Roof",
+        "short_description": "The roof of the hotel",
+        "long_description": "A newly rebuilt roof, from which you can see tall buildings miles away.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 13
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "name": "Basement",
+        "short_description": "The basement of the hotel",
+        "long_description": "A well lit basement of the hotel. There is a bowling alley, an indoor swimming pool and a DIY room.",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 12
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "Briefcase",
+        "itemLongDescription": "An empty briefcase. It has a label with a french name on it",
+        "wearable": true
+      },
+      {
+        "id": 2,
+        "name": "Wallet",
+        "itemLongDescription": "A wallet containing 23 dollars and a ticket to a theater play",
+        "wearable": true
+      },
+      {
+        "id": 3,
+        "name": "iPhone",
+        "itemLongDescription": "A white iPhone 6s. It has few scratchmarks on its back",
+        "wearable": true
+      },
+      {
+        "id": 4,
+        "name": "Pen",
+        "itemLongDescription": "A black pen with carved initials I.J. on its side",
+        "wearable": true
+      },
+      {
+        "id": 5,
+        "name": "Glock",
+        "itemLongDescription": "An unloaded used gun",
+        "readable": true
+      },
+      {
+        "id": 6,
+        "name": "Bullets",
+        "itemLongDescription": "Three bullets located next to the Glock",
+        "readable": true
+      },
+      {
+        "id": 7,
+        "name": "Robe",
+        "itemLongDescription": "A woman's robe. It's little wet and smells like the hotel shampoo",
+        "wearable": true,
+        "tossable": true
+      },
+      {
+        "id": 8,
+        "name": "Vodka",
+        "itemLongDescription": "A vodka bottle found in the minibar of room C17. It is half-empty",
+        "wearable": true,
+      },
+      {
+        "id": 9,
+        "name": "Text",
+        "itemLongDescription": "A piece of paper with an encrypted text found in a vault",
+        "readable": true
+      },
+      {
+        "id": 10,
+        "name": "Keys",
+        "itemLongDescription": "Keys from an unknown room",
+        "readable": true
+      },
+      {
+        "id": 11,
+        "name": "Ring",
+        "itemLongDescription": "Ring with a diamond in the middle. It doesn't seem to have been worn",
+        "tossable": true,
+        "readable": true
+      },
+      {
+        "id": 12,
+        "name": "Screwdriver",
+        "itemLongDescription": "A rusty screwdriver. It must be very old.",
+        "wearable": true
+      },
+      {
+        "id": 13,
+        "name": "Book",
+        "itemLongDescription": "A modern book written in some foreign Slavic language.",
+        "readable": true
+      }
+    ]
+  }
+}
